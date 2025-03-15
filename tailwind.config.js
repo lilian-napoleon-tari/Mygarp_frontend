@@ -3,9 +3,16 @@ export default {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily: {
+        Roboto_Mono: ["Roboto Mono", "monospace"],
+        Roboto_slab: ["Roboto Slab", "serif"],
+        Poppins: ["Poppins", "sans-serif"],
+      },
+
       colors: {
         deep_green: "#224F34",
         light_green: "#C2EFD4",
+        medium_green: "#6BC785",
       },
     },
   },

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>Login Page</title>
+    <!-- Boxicons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Top -->
+      <div class="bg-deep_green h-7"></div>
+
+      <!-- nav section -->
+      <nav class="flex justify-between items-center px-16 text-deep_green py-3">
+        <!-- Logo -->
+        <a href="#" class="font-Roboto_Mono text-4xl font-semibold">MyGarp</a>
+
+        <!-- Nav Items-->
+        <ul class="uppercase flex space-x-7 font-Poppins">
+          <li>
+            <a href="./index.html" class="hover:text-deep_green/75">Home</a>
+          </li>
+          <li>
+            <a href="./how-it-works.html" class="hover:text-deep_green/75"
+              >How It Works</a
+            >
+          </li>
+          <li>
+            <a href="./features.html" class="hover:text-deep_green/75"
+              >Features</a
+            >
+          </li>
+          <li>
+            <a href="./contact.html" class="hover:text-deep_green/75"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- Button -->
+        <div class="flex items-center gap-2">
+          <!-- Cart Icon -->
+          <a href="./">
+            <img
+              src="../assets/images/cart_icon.png"
+              alt="Shopping Cart"
+              width="32px"
+              height="32px"
+              class="flex justify-center items-center m-auto"
+            />
+          </a>
+
+          <div class="space-x-2">
+            <!-- Login button -->
+            <a href="./login.html">
+              <button
+                class="uppercase border-2 border-deep_green px-7 py-2 rounded-lg"
+              >
+                log in
+              </button>
+            </a>
+
+            <!-- Sign up button -->
+            <a href="./signup.html">
+              <button
+                class="uppercase bg-deep_green text-white px-6 py-2 rounded-lg"
+              >
+                sign up
+              </button>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="flex justify-center items-center m-auto mt-4">
+      <!-- Image Div -->
+      <div>
+        <img
+          src="../assets/images/sewing materials.png"
+          alt="Sewing Materials"
+          width="428px"
+          height="821px"
+        />
+      </div>
+
+      <!-- Form Section -->
+      <form
+        class="font-Poppins bg-deep_green text-white h-[621px] w-[674.21px] items-center justify-center flex flex-col"
+      >
+        <h1 class="uppercase text-3xl mb-2 flex justify-center items-center">
+          login
+        </h1>
+
+        <div class="w-full space-y-4 flex flex-col justify-center items-center">
+          <!-- Email -->
+          <div>
+            <h2 class="capitalize mb-3">email</h2>
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              class="bg-transparent w-[603px] border-2 border-white py-4 rounded-md placeholder:text-white"
+            />
+          </div>
+
+          <!-- Password -->
+          <div>
+            <h2 class="capitalize mb-3">password</h2>
+            <input
+              type="password"
+              placeholder="Enter Your password"
+              class="bg-transparent w-[603px] border-2 border-white py-4 rounded-md placeholder:text-white"
+            />
+          </div>
+
+          <!-- Login as -->
+          <div>
+            <h2 class="capitalize mb-3">login as</h2>
+            <select
+              name="options"
+              class="text-white bg-transparent w-[603px] border-2 border-white py-4 rounded-md"
+            >
+              <option class="text-deep_green">Option 1</option>
+              <option class="text-deep_green">Option 2</option>
+              <option class="text-deep_green">Option 3</option>
+              <option class="text-deep_green">Option 4</option>
+            </select>
+          </div>
+
+          <!-- forgot password -->
+        </div>
+
+        <div>
+          <!-- Login Button -->
+          <button
+            class="bg-deep_green text-white uppercase font-semibold py-3 px-8 border-2 border-white rounded-md w-[237.62px] h-[49px] mt-16 justify-center items-center flex"
+          >
+            Login
+          </button>
+
+          <!-- Signup Link -->
+          <p class="text-center mt-4">
+            Don't have an account?
+            <a href="./signup.html" class="font-semibold">Sign up</a>
+          </p>
+        </div>
+      </form>
+    </main>
+
+    <footer class="bg-deep_green text-light_green font-Poppins py-10 px-32">
+      <!-- top -->
+      <div class="flex justify-around">
+        <!-- First -->
+        <div class="space-y-3">
+          <h2 class="text-white text-4xl">MyGarp</h2>
+          <p class="text-white font-Roboto_slab">Social Media</p>
+
+          <!-- Icons -->
+          <div class="flex space-x-2">
+            <!-- facebook icon -->
+            <img src="../assets/images/facebook.png" alt="Facebook Icon" class="w-[28px] h-[28px]">
+
+            <!-- twitter icon -->
+            <img src="../assets/images/Twitter.png" alt="Twitter Icon" class="w-[28px] h-[28px]">
+
+            <!-- instagram icon -->
+            <img src="../assets/images/Instagram.png" alt="Instagram Icon" class="w-[28px] h-[28px]">
+          </div>
+        </div>
+
+        <!-- second -->
+        <div>
+          <h2 class="font-Roboto_slab text-white uppercase mb-4">shop</h2>
+          <ul class="capitalize font-Poppins space-y-2">
+            <li>
+              <a href="./product.html">products</a>
+            </li>
+            <li>
+              <a href="./overview.html">overview</a>
+            </li>
+            <li>
+              <a href="./pricing.html">pricing</a>
+            </li>
+            <li>
+              <a href="./releases.html">releases</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- third -->
+        <div>
+          <h2 class="uppercase font-Roboto_slab text-white mb-4">company</h2>
+          <ul class="capitalize font-Poppins space-y-2">
+            <li>
+              <a href="./about_us.html">about us</a>
+            </li>
+            <li>
+              <a href="./contact.html">contact</a>
+            </li>
+            <li>
+              <a href="./news.html">news</a>
+            </li>
+            <li>
+              <a href="./support.html">support</a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- fourth -->
+        <div>
+          <h2 class="uppercase font-Roboto_slab text-white mb-3">
+            stay up to date
+          </h2>
+          <div class="border-2 border-light_green">
+            <input
+              type="email"
+              placeholder="Enter Your Email"
+              class="bg-transparent w-[250px] h-full placeholder:text-white"
+            />
+
+            <button
+              type="submit"
+              class="bg-light_green text-deep_green w-[115px] h-[37px] uppercase"
+            >
+              submit
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom -->
+      <div class="flex mt-4 space-x-3 justify-center ">
+        <!-- green line -->
+        <div class="border-t-2 border-green-400 w-[889px] mt-3.5"></div>
+
+        <ul class="capitalize flex space-x-7 font-Poppins text-white">
+          <li>
+            <a href="./terms.html">terms</a>
+          </li>
+          <li>
+            <a href="./privacy.html">privacy</a>
+          </li>
+          <li>
+            <a href="./cookies.html">cookies</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
